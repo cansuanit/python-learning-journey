@@ -13,3 +13,14 @@ Welcome to my Python learning repository! This space is dedicated to documenting
 ---
 
 ## 📂 Repository Structure
+python-learning-journey/
+│
+├── 01-objects-and-data-structures/
+├── 02-operators/
+├── 03-conditional-statements/
+├── 04-loops/
+├── 05-functions/
+├── 06-object-oriented-programming/
+├── 07-modules/
+├── 08-error-handling/
+└── 09-files-and-file-management/
