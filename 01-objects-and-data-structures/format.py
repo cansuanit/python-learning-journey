@@ -10,4 +10,6 @@ print("My name is {} {} and I am {} years old.".format(name, surname, age))
 result = 200/ 500
 print ("the ressult is {r: 1.3}" .fotmat(r = result))
 
-primt(f"the result is {r: 1.3}" .format(r = result))
+#f string 
+
+print(f"the result is {r: 1.3}" .format(r = result))
