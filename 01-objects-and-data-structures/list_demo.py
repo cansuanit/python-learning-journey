@@ -24,15 +24,34 @@ brand_list[-2:] = ["TOYOTA", "RENAULT"]
 print(brand_list)
 
 # 9- Add "Audi" and "Nissan" to the list.
-#result = brand_list.add("AUDI") 
+result = brand_list + ["Audi","Nissan"]
+print(result)
 # 10- Delete the last element of the list.
-
+del brand_list [-1]
+print(brand_list)
 # 11- Print the list elements in reverse order.
-print("11" + str(brand_list.reverse()))
+result = brand_list[::-1]
+print("Reverse List" + str(result))
 # 12- Store the following data in a list.
 
 # Student A: Yiğit Bilgi, 2010, (70, 60, 70)
 # Student B: Sena Turan, 1999, (80, 80, 70)
 # Student C: Ahmet Turan, 1998, (80, 70, 90)
+studentA = ["Yiğit","Bilgi",2010, [70,60,70]]
+studentB = ["Sena","Turan",1999, [80,80,70]]
+studentC= ["Ahmet","Turan", 1998, [80,70,90]]
 
 # 13- Print the list elements to the screen.
+result= studentA[0]
+print(result)
+result=studentB[1]
+print(result)
+
+result=studentC[3]
+print(result)
+
+result =studentC[3][1]
+print(result)
+
+result= f"{studentA[0]} {studentA[1]} {2026-studentA[2]} yaşında ve not ortalaması {(studentA[3][0]+studentA[3][1]+studentA[3][2])/3}"
+print(result)
