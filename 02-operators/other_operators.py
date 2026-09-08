@@ -25,3 +25,8 @@ print("banana" in fruit)
 
 name = "Cansu"
 print("a"in name)
+
+#is operatörü iki değişkenin bellekte aynı nesne olup olmadığını kontrol eder.
+#is kimlik/adres kontrolü yapar
+#in operatörü bir elemanın koleksiyon (list, dictionary, string ... içinde olup olmadığını kontrol eder.)
+#in üyelik kontrolü yapar
